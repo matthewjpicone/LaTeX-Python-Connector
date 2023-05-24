@@ -1,0 +1,14 @@
+# Store all basic variables here for title pages etc.
+
+UNIVERSITY:
+  wordcount: NULL
+  universityName: NULL
+  trimesterNum: NULL
+  subjectCode: NULL
+  subjectName: NULL
+  supervisorCoordinator: NULL
+  supervisorCoordinatorName: NULL
+  paperTitle: NULL
+  dueDate: NULL
+  myName: NULL
+  studentID: NULL
