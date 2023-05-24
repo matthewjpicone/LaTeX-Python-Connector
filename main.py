@@ -231,7 +231,7 @@ def get_word_count(tex_file: str) -> dict:
 # # Main function
 # def main():
 #     tex_file = 'main.tex'
-#     title_page_settings_file = 'setup/title_page_settings.tex'
+#     title_page_settings_file = 'setup/UNE.tex'
 #     details_file = 'details.yaml'
 #     output_dir = 'out/'
 #
