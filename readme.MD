@@ -51,3 +51,72 @@ Contributions to this project are welcome. If you find any bugs, issues, or have
 
 ## Acknowledgements
 This project was developed by matthewpicone. We would like to thank all the contributors and the open-source community for their support and valuable contributions.
+
+## Directory Structure
+```
+.
+├── LICENSE
+├── LaTeX - Python Connector.iml
+├── app.log
+├── details.yaml
+├── main.bib
+├── main.py
+├── main.tex
+├── out
+│ ├── EXAMPLE PROJECT
+│ │ ├── document_content_examples
+│ │ ├── document_settings
+│ │ ├── main.aux
+│ │ ├── main.bbl
+│ │ ├── main.bcf
+│ │ ├── main.blg
+│ │ ├── main.fdb_latexmk
+│ │ ├── main.fls
+│ │ ├── main.log
+│ │ ├── main.pdf
+│ │ ├── main.run.xml
+│ │ ├── main.synctex.gz
+│ │ ├── main.tex.bbl
+│ │ ├── main.tex.blg
+│ │ ├── preamble
+│ │ ├── title_page_templates
+│ │ └── variables
+│ └── generated_documents
+│   │ ├──html_docs
+│   │ ├── EXAMPLE PROJECT1.html
+│   │ ├── EXAMPLE PROJECT2.html
+│   │ └── EXAMPLE PROJECT3.html
+│   ├── markdown_docs
+│   │ ├── EXAMPLE PROJECT1.md
+│   │ ├── EXAMPLE PROJECT2.md
+│   │ └── EXAMPLE PROJECT3.md
+│   └── pdf_docs
+│     ├── EXAMPLE PROJECT1.pdf
+│     ├── EXAMPLE PROJECT2.pdf
+│     └── EXAMPLE PROJECT3.pdf
+├── readme.MD
+└── src
+├── document_content
+│ └── EXAMPLE PROJECT1
+│ └── EXAMPLE PROJECT2
+│ └── EXAMPLE PROJECT3
+├── document_content_examples
+│ ├── 01Example - With Citations.tex
+│ └── 02Example - Without Citations.tex
+├── document_settings
+│ └── EXAMPLE PROJECT1.tex
+│ └── EXAMPLE PROJECT2.tex
+│ └── EXAMPLE PROJECT3.tex
+├── preamble
+│ └── EXAMPLE PROJECT1.tex
+│ └── EXAMPLE PROJECT2.tex
+│ └── EXAMPLE PROJECT3.tex
+├── title_page_templates
+│ └── EXAMPLE PROJECT1.tex
+│ └── EXAMPLE PROJECT2.tex
+│ └── EXAMPLE PROJECT3.tex
+└── variables
+│ └── EXAMPLE PROJECT1.tex
+│ └── EXAMPLE PROJECT2.tex
+│ └── EXAMPLE PROJECT3.tex
+```
