@@ -1,0 +1,25 @@
+%! Author = matthewpicone
+%! Date = 23/5/2023
+% Standard minimum packages to keep in the project directory.
+%! Reference this file in the Preamble Section ONLY!
+
+\usepackage{lipsum} % Import the lipsum package for generating placeholder text
+\usepackage[base]{babel} % To give proper formatting to non english text
+\usepackage[backend=biber, style=apa]{biblatex} % Import the biblatex package with APA style for citations and bibliography
+\addbibresource{main.bib} % Add the bibliography resource file
+\usepackage{times} % Set the document font to Times Roman
+\usepackage{amsmath} % Include the amsmath package for enhanced math environments
+\usepackage{titlesec} % Import the titlesec package for customizing sectioning commands
+\usepackage[T1]{fontenc} % Set the font encoding to T1 for better character support
+\usepackage[margin=2.5cm]{geometry} % Set the margins
+\usepackage{fancyhdr} % Import the fancyhdr package for custom page headers and footers
+\pagestyle{fancyplain} % Set the page style to fancyplain
+\fancyhf{} % Clear the default header and footer settings
+\renewcommand{\headrulewidth}{0pt} % Remove the horizontal line in the header
+\renewcommand{\footrulewidth}{0.4pt} % Set the width of the horizontal line in the footer to 0.4pt
+\fancyfoot[L]{\myName{} \studentID} % Set the left footer content
+\fancyfoot[C]{\subjectCode{} - \paperTitle} % Set the center footer content
+\fancyfoot[R]{\thepage} % Set the right footer content
+\setlength{\parindent}{1.3cm} % Set the indentation width for paragraphs
+
+
