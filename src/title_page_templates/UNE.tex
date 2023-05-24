@@ -1,0 +1,27 @@
+%! Author = matthewpicone
+%! Date = 23/5/2023
+%! % Variables specific to UNE Essay format requirements.
+
+%! Reference this file inside a document class environment
+
+
+\begin{titlepage}
+    \newcommand{\HRule}{\rule{\linewidth}{0.1mm}} % Define a horizontal rule command
+    \center
+    {\LARGE \universityName}\\[1.5cm] % Display the university name
+    {\Large Trimester \trimesterNum{}}\\[0.5cm] % Display the trimester number
+    {\large \subjectCode{} \subjectName}\\[0.5cm] % Display the subject code and name
+    {\large \textit{\supervisorCoordinator} \\ \supervisorCoordinatorName}\\[1cm] % Display the supervisor/coordinator info
+    \HRule\\[1cm] % Display a horizontal rule
+    {\huge\bfseries \paperTitle}\\[1cm] % Display the paper title
+    \textsc{\large Due Date: \dueDate}\\[0.5cm] % Display the due date
+    \HRule\\[1cm] % Display a horizontal rule
+    {\large\textit{Author} \\ \myName}\\[0.5cm] % Display the author info
+    {\large\textit{Student ID} \\ \studentID}\\ % Display the student ID
+    \vfill
+    {\large\textit{Word Count{}} \\ \wordCount words.}\\ % Display the word count
+    \vfill
+    {\large\today} % Display the current date
+    \vfill
+\end{titlepage}
+
