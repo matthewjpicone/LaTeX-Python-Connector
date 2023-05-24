@@ -1,0 +1,17 @@
+
+*.pdf
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.iml
+.idea/vcs.xml
+.idea/misc.xml
+.idea/modules.xml
+out/UNE/main.synctex.gz
+out/UNE/main.run.xml
+out/EXAMPLE UNIVERSITY ESSAY.pdf
+*.pdf
